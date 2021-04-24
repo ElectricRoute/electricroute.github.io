@@ -5,10 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-		<link rel="shortcut icon" href="assets/img/ElectricRoute_logo.png" type="image/png">
+		
         <title>Electric Route</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
+        <link rel="icon" type="image/x-icon" href="assets/img/ElectricRoute_logo.png" />
+        
+		<!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
@@ -29,9 +30,10 @@
                     <ul class="navbar-nav ml-auto">
 						<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#home">Home</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
-						<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#context">Contexto</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Proyecto</a></li>
+						<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Equipo</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup">Contacto</a></li>
                     </ul>
                 </div>
             </div>
@@ -46,33 +48,98 @@
                 </div>
             </div>
         </header>
-        <!-- About-->
 
-        <section class="about-section text-center" id="about" style="background-color: #000000">
-		
-			<div class="row" style="width:100% ">
-				<video class="video" style="width:100%" controls muted>
-					  <source src="video_ElectricRoute.mp4" type="video/mp4">
-				</video>
-			</div>
-			
+        <!-- About-->
+        <section class="about-section text-center" id="about" >
+			<div class="container-fluid">
+				<div class="row">
+                    <div class="col-lg-6 mx-auto">
+
+                        <h2 class="text-white mb-4">Conoce Electric Route</h2>
+                        <p class="text-white-50" style="margin-bottom: 5%">
+                            Aplicación web que recomienda rutas óptimas para coches eléctricos según su autonomía. Resultados basados en la creación de procesos de transformación de datos mediante algoritmos de Machine Learning 
+							como clustering y modelos de optimización apoyados en la creación, manipulación y estudio de redes complejas.
+                        </p>
+						<video class="video" style="width:100%" controls>
+							<source src="video_ElectricRoute.mp4" type="video/mp4">
+						</video>
+					</div>
+				</div>			
+			</div>			
         </section>
+
+
+		<!-- Contexto-->
+        <section class="projects-section bg-light" id="context" >
+			<div class="container">
+				<div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/img_context.jpg" alt="" /></div>
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4>Contexto</h4>
+                            <p class="text-black-50 mb-0">
+								Electric Route surge como nuestra propuesta al trabajo fin del máster de Máster en Big Data & Business Analytics de la Universidad Complutense de Madrid.
+							</p>
+                        </div>
+                    </div>
+                </div>	
+			</div>			
+        </section>
+
+
+
 		
         <!-- Projects-->
         <section class="projects-section bg-light" id="projects">
             <div class="container">
-                <!-- Featured Project Row-->
-                <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg" alt="" /></div>
-                    <div class="col-xl-4 col-lg-5">
-                        <div class="featured-text text-center text-lg-left">
-                            <h4>Shoreline</h4>
-                            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+                <!-- Project One Row-->
+                <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/img_nature.jpg" alt="" /></div>
+                    <div class="col-lg-6">
+
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white">Sostenibilidad</h4>
+                                    <p class="mb-0 text-white-50" style="text-indent: 1em; text-align:justify">
+										Durante los últimos años, la movilidad se ha convertido en uno de los principales problemas que siguen generando altos índices de contaminación.
+									</p>
+                                    <p class="mb-0 text-white-50" style="text-indent: 1em; text-align:justify">
+										Alcanzar, espacios más sostenibles y limpios es el gran reto para todos los países comprometidos en la lucha contra el cambio climático.
+										Una de las medidas para conseguirlo es impulsar la movilidad sostenible.
+									</p>
+                                    <hr class="d-none d-lg-block mb-0 ml-0" />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <!-- Project One Row-->
-                <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+
+                <!-- Project Two Row-->
+                <div class="row justify-content-center no-gutters">
+
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/img_traffic.jpg" alt="" /></div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-black text-center h-100 project">
+
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4 class="text-white"style ="margin-bottom:2%">Movilidad sostenible</h4>
+                                    <p class="mb-0 text-white-50" style="text-indent: 1em; text-align:justify">
+										En los últimos años se han incrementado las ventas de los coches eléctricos, aunque aún existe el hándicap de las rutas de largo recorrido, producido por la autonomía de los coches.
+									</p>
+                                    <p class="mb-0 text-white-50" style="text-indent: 1em; text-align:justify">
+										 De esta necesidad, surge el principal objetivo del trabajo, desarrollar un recomendador para trayectos de larga distancia según la autonomía de los coches.
+									</p>
+                                    <hr class="d-none d-lg-block mb-0 mr-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				<div class="row justify-content-center no-gutters mb-5 mb-lg-0">
                     <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="" /></div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
@@ -86,24 +153,90 @@
                         </div>
                     </div>
                 </div>
-                <!-- Project Two Row-->
-                <div class="row justify-content-center no-gutters">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="" /></div>
-                    <div class="col-lg-6 order-lg-first">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Mountains</h4>
-                                    <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
-                                    <hr class="d-none d-lg-block mb-0 mr-0" />
-                                </div>
+            </div>
+        </section>
+
+		
+		<!-- Equipo -->
+		<section class="contact-section bg-black" id="team">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-6 h-90">
+                            <div class="card-body text-center">
+								<img class="img-profile rounded-circle" src="assets/img/img_blanca.png">
+                                <h4 class="text-uppercase m-0">Blanca Alonso González</h4>
+								<hr class="my-4" />
+								<p>Mathematics Degree and Master in Big Data and Business Analytics, working as Data Scientist in MBD Analytics.</p>
+								<p>ML specialist with knowledge of cloud services, programming skills and business vision.</p>
+                                <hr class="my-4" />
+								<a href="https://www.linkedin.com/in/blanca-alonso-gonzalez"><i class="fab fa-linkedin fa-3x"></i></a>
+							</div>							
+
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-6 h-90">
+                            <div class="card-body text-center">
+								<img class="img-profile rounded-circle" src="assets/img/img_irene.png">
+                                <h4 class="text-uppercase m-0">Irene Robles Cabezas</h4>
+								<hr class="my-4" />
+								<p>Economics Degree and Master in Big Data and Business Analytics, working as Data Analytics in MBD Analytics.</p>
+								<p>Especializada en análisis económico y en técnicas de aprendizaje y modelización predictiva avanzada.</p>
+                                <hr class="my-4" />
+								<a class="mx-2" href="#!"><i class="fab fa-linkedin fa-3x"></i></a>
+							</div>
+                        </div>
+                    </div>
+					<div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-6 h-90">
+                            <div class="card-body text-center">
+								<img class="img-profile rounded-circle" src="assets/img/img_irene.png">
+                                <h4 class="text-uppercase m-0">XXXXXXXXXXXXXXXXXX</h4>
+                                <hr class="my-4" />
+								<p>Economics Degree and Master in Big Data and Business Analytics, working as Data Analytics in MBD Analytics.</p>
+								<p>Especializada en análisis económico y en técnicas de aprendizaje y modelización predictiva avanzada.</p>
+								<hr class="my-4" />
+								<a class="mx-2" href="#!"><i class="fab fa-linkedin fa-3x"></i></a>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
+				</div>
+	        </div>
+
         </section>
-        <!-- Signup-->
+				<!-- <div class="row"> -->
+                    <!-- <div class="col-lg-4 col-md-6 col-sm-6"> -->
+                        <!-- <div class="card py-4 h-100"> -->
+                            <!-- <div class="card-body text-center"> -->
+								<!-- <img class="img-profile rounded-circle" src="assets/img/img_irene.png"> -->
+                                <!-- <h4 class="text-uppercase m-0">Marta García Palomo</h4> -->
+                                <!-- <hr class="my-4" /> -->
+								<!-- <p>Industrial Degree and Master in Big Data and Business Analytics, working as Data Analytics in MBD Analytics.</p> -->
+								<!-- <p>Especializada en análisis económico y en técnicas de aprendizaje y modelización predictiva avanzada.</p> -->
+								<!-- <hr class="my-4" /> -->
+								<!-- <a class="mx-2" href="#!"><i class="fab fa-linkedin fa-3x"></i></a> -->
+                            <!-- </div> -->
+                        <!-- </div> -->
+                    <!-- </div> -->
+					<!-- <div class="col-lg-4 col-md-6 col-sm-6"> -->
+                        <!-- <div class="card py-4 h-100"> -->
+                            <!-- <div class="card-body text-center"> -->
+								<!-- <img class="img-profile rounded-circle" src="assets/img/img_irene.png"> -->
+                                <!-- <h4 class="text-uppercase m-0">Lucía Tomaino de la Cruz</h4> -->
+                                <!-- <hr class="my-4" /> -->
+								<!-- <p>Aeronautics Degree and Master in Big Data and Business Analytics, working as Data Analytics in MBD Analytics.</p> -->
+								<!-- <p>Especializada en análisis económico y en técnicas de aprendizaje y modelización predictiva avanzada.</p> -->
+								<!-- <hr class="my-4" /> -->
+								<!-- <a class="mx-2" href="#!"><i class="fab fa-linkedin fa-3x"></i></a> -->
+                            <!-- </div> -->
+                        <!-- </div> -->
+                    <!-- </div> -->
+                <!-- </div> -->
+ 
+
+		
+        <!-- Contacto-->
         <section class="signup-section" id="signup">
             <div class="container">
                 <div class="row">
@@ -118,48 +251,11 @@
                 </div>
             </div>
         </section>
-        <!-- Contact-->
-        <section class="contact-section bg-black">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Address</h4>
-                                <hr class="my-4" />
-                                <div class="small text-black-50">4923 Market Street, Orlando FL</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-envelope text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Email</h4>
-                                <hr class="my-4" />
-                                <div class="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Phone</h4>
-                                <hr class="my-4" />
-                                <div class="small text-black-50">+1 (555) 902-8832</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
-                </div>
-            </div>
-        </section>
+
+
+
+		
+		
         <!-- Footer-->
         <footer class="footer bg-black small text-center text-white-50"><div class="container">Copyright © Electric Route 2021</div></footer>
         <!-- Bootstrap core JS-->

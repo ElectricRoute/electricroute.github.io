@@ -10250,15 +10250,17 @@ body {
 }
 
 .about-section {
-  padding-top: 10rem;
-  background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 35%, rgba(0, 0, 0, 0.8) 100%);
 }
 .about-section p {
   margin-bottom: 5rem;
 }
 
+
 .projects-section {
-  padding: 10rem 0;
+  padding: 7rem 0;
 }
 .projects-section .featured-text {
   padding: 2rem;
@@ -10305,6 +10307,7 @@ body {
 
 .contact-section {
   padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 .contact-section .card {
   border: 0;
