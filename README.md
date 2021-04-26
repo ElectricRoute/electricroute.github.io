@@ -2,6 +2,10 @@
 
 Aplicación web que recomienda rutas óptimas para coches eléctricos según su autonomía.
 
+Se puede encontrar el código del proyecto en el siguiente repositorio:
+
+	https://github.com/blaalons/TFM
+	
 Existen varias carpetas:
 
 - __docs__
@@ -19,7 +23,5 @@ Existen varias carpetas:
 	Esta carpeta contiene elementos estáticos como imágenes, ficheros .css para el estilo de los objetos os ficheros .js
 
 
-Se puede encontrar el código del proyecto en el siguiente repositorio:
 
-	https://github.com/blaalons/TFM
 
