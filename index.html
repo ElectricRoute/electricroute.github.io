@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -11,26 +13,28 @@
         
 		<!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+		
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+		
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="static/css/styles.css" rel="stylesheet" />
 		
-		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+		<!-- Bootstrap core JS-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-  
     </head>
 	
     <body id="page-top">
 	
-        <!-- Navigation-->
+        <!-- Menú Superior - Navigation -->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container">
+			
 				<a class="navbar-brand js-scroll-trigger" href="#page-top">
-					<img class="img-fluid" src="static/img/ElectricRoute_logo.png" style="width:12%; height:12%; padding-bottom: 2%"  alt="" /> 
+					<img class="img-fluid" src="static/img/ElectricRoute_logo.png" style="width:9%; height:9%; padding-bottom: 0.5%"  alt="" /> 
 					Electric Route
 				</a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,13 +46,34 @@
 						<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#home">Inicio</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Qué es</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#context">Contexto</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Proyecto</a></li>
+                        <li class="nav-item dropdown no-arrow">
+							<a class="nav-link dropdown" href="#" id="userDropdown" role="button" data-toggle="dropdown"  aria-expanded="false">
+								Proyecto
+							</a>
+							<!-- Dropdown - User Information -->
+							  <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+								<a class="dropdown-item" href="#motivacion">
+								  <i class="fas fa-user fa-sm fa-tree mr-2 text-gray-400"></i>
+								  Motivación
+								</a>
+								<a class="dropdown-item" href="#desarrollo">
+								  <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+								  Desarrollo
+								</a>
+								<a class="dropdown-item" href="#herramienta">
+								  <i class="fas fa-list fa-sm fa-map mr-2 text-gray-400"></i>
+								  Herramienta web
+								</a>
+							</div>
+						</li>
 						<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Equipo</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <!-- Masthead-->
+		
+		
+        <!-- Cabecera - Inicio -->
         <header class="masthead" id="home">
             <div class="container d-flex h-100 align-items-center">
                 <div class="mx-auto text-center">
@@ -59,7 +84,8 @@
             </div>
         </header>
 
-        <!-- About-->
+
+		<!-- Sección - Qué es -->
         <section class="about-section text-center" id="about" >
 			<div class="container-fluid">
 				<div class="row">
@@ -79,9 +105,11 @@
         </section>
 
 
-		<!-- Contexto-->
-        <section class="projects-section bg-light" id="context" >
+		<!-- Sección - Contexto -->
+        <section class="projects-section bg-light" id="context" style="padding-top:7%">
 			<div class="container">
+			
+				<!-- Subsección - Contexto -->
 				<div class="row align-items-center no-gutters mb-4 mb-lg-5">
                     <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="static/img/img_context.jpg" alt="" /></div>
                     <div class="col-xl-4 col-lg-5">
@@ -92,22 +120,16 @@
 								de la Universidad Complutense de Madrid.
 							</p>
                         </div>
-
                     </div>
-                </div>	
-			</div>			
-        </section>
-
-
-		<!-- Código-->
-        <section class="projects-section bg-light" id="context" >
-			<div class="container">
-				<div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                </div>
+				
+				<!-- Subsección - Contexto -->
+				<div class="row align-items-center no-gutters mb-4 mb-lg-5" style="padding-top:8%">
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left" style="padding-right:5%">
                             <h4>Resumen Ejecutivo</h4>
                             <p class="text-black-50 mb-0" style="text-indent: 1em; text-align:justify">
-								Describe de una forma clara y detalla el alcance del proyecto y, en líneas generales, 
+								Describe de una forma clara y detallada el alcance del proyecto y, en líneas generales, 
 								la forma en la que se aborda el problema que se pretende resolver.
 							</p>
 							<p class="text-black-50 mb-0" style="padding-top:5%">
@@ -118,14 +140,9 @@
                     </div>
 					<div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="static/img/img_resumen.jpg" alt="" /></div>
                 </div>	
-			</div>			
-        </section>
-		
-		
-		<!-- Resumen Ejecutivo -->
-        <section class="projects-section bg-light" id="context" >
-			<div class="container">
-				<div class="row align-items-center no-gutters mb-4 mb-lg-5">
+				
+				<!-- Subsección - Resumen Ejecutivo -->
+				<div class="row align-items-center no-gutters mb-4 mb-lg-5"  style="padding-top:8%">
                     <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="static/img/img_laptop.jpg" alt="" /></div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
@@ -141,25 +158,23 @@
 								<a href="docs/Trabajo_Fin_de_Master_Grupo_3.pdf" download="Trabajo_Fin_de_Master_Memoria.pdf">  Memoria del Proyecto</a>
 							</p>
                         </div>
-
                     </div>
-                </div>	
+                </div>
+				
 			</div>			
         </section>
 
-		
-        <!-- Projects-->
-        <section class="projects-section bg-light" id="projects">
+
+        <!-- Sección - Proyecto: Motivación -->
+        <section class="projects-section bg-light" id="motivacion">
             <div class="container">
 				
-				<h2 class="text-bk mb-4 text-center ">Proyecto - Motivación</h2>
+				<h2 class="text-bk mb-4 text-center">La nueva normalidad tiene que moverse en verde</h2>
 				
                 <!-- Project One Row-->
                 <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-
                     <div class="col-lg-6"><img class="img-fluid" src="static/img/img_nature.jpg" alt="" /></div>
                     <div class="col-lg-6">
-
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
@@ -182,11 +197,9 @@
 
                 <!-- Project Two Row-->
                 <div class="row justify-content-center no-gutters">
-
                     <div class="col-lg-6"><img class="img-fluid" src="static/img/img_traffic.jpg" alt="" /></div>
                     <div class="col-lg-6 order-lg-first">
                         <div class="bg-black text-center h-100 project">
-
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-right">
                                     <h4 class="text-white"style ="margin-bottom:2%">Movilidad sostenible</h4>
@@ -204,6 +217,8 @@
                         </div>
                     </div>
                 </div>
+				
+				<!-- Project Three Row-->
 				<div class="row justify-content-center no-gutters mb-5 mb-lg-0">
                     <div class="col-lg-6"><img class="img-fluid" src="static/img/img_login.jpg" alt="" /></div>
                     <div class="col-lg-6">
@@ -224,12 +239,13 @@
                         </div>
                     </div>
                 </div>
+				
             </div>
         </section>
 		
-
-		<!-- Proyecto - Desarrollo -->
-        <section class="projects-section bg-light" id="context" >
+		
+		<!-- Sección - Proyecto: Desarrollo -->
+        <section class="projects-section bg-light" id="desarrollo" >
 			<div class="container">
 			
 				<h2 class="text-bk mb-4 text-center ">Proyecto - Desarrollo</h2>
@@ -246,7 +262,7 @@
 					<!-- Wrapper for slides -->
 					<div class="carousel-inner">
 						<div class="item active">
-							<img src="static/img/bg-signup_old.jpg" alt="">
+							<img src="static/img/pipeline_1.png" alt="">
 						</div>
 
 						<div class="item">
@@ -273,54 +289,101 @@
 
         </section>
 		
-
-
-		<!-- Proyecto - Herramienta web -->
-        <section class="projects-section bg-light" id="context" >
+		<!-- Sección - Proyecto: Herramienta web -->
+        <section class="projects-section bg-light" id="herramienta" style="padding-bottom: 6%">
 			<div class="container">
 			
-				<h2 class="text-bk mb-4 text-center ">Proyecto - Herramienta web</h2>
+				<h2 class="text-bk mb-4 text-center ">¿Cómo funciona?</h2>
 				
-				<div id="myCarousel2" class="carousel slide" data-ride="carousel">
+				<div id="Carousel_app" class="carousel slide" data-ride="carousel">
 				
 					<!-- Indicators -->
 					<ol class="carousel-indicators">
-						<li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
-						<li data-target="#myCarousel2" data-slide-to="1"></li>
-						<li data-target="#myCarousel2" data-slide-to="2"></li>
-						<li data-target="#myCarousel2" data-slide-to="3"></li>
-						<li data-target="#myCarousel2" data-slide-to="4"></li>
+						<li data-target="#Carousel_app" data-slide-to="0"></li>
+						<li data-target="#Carousel_app" data-slide-to="1"></li>
+						<li data-target="#Carousel_app" data-slide-to="2"></li>
+						<li data-target="#Carousel_app" data-slide-to="3"></li>
+						<li data-target="#Carousel_app" data-slide-to="4"></li>
+						<li data-target="#Carousel_app" data-slide-to="5"></li>
+						<li data-target="#Carousel_app" data-slide-to="6"></li>
+						<li data-target="#Carousel_app" data-slide-to="7"></li>
+						<li data-target="#Carousel_app" data-slide-to="8"></li>
 					</ol>
 
 					<!-- Wrapper for slides -->
 					<div class="carousel-inner">
+						<!-- Signup -->
 						<div class="item active">
-							<img class="img mx-auto" src="static/img/app_signup.png" alt="">
+							<img class="img mx-auto" src="static/img/app_signup.png" style="margin: 0px; height: 70%" alt="">
+							<div class="carousel-content">
+								<div/ class="caja"> <p>1º Crea tu usuario</p> </div>
+							</div>
 						</div>
-
+						
+						<!-- Login -->
 						<div class="item">
 							<img src="static/img/app_login.png" alt="">
+							<div class="carousel-content">
+								<div/ class="caja"> <p>2º Inicia sesión</p> </div>
+							</div>
 						</div>
 
 						<div class="item">
 							<img src="static/img/app_index.png" alt="">
+							<div class="carousel-content">
+								<div/ class="caja"> <p>3º Selecciona una opción</p> </div>
+							</div>
+						</div>
+						
+						<div class="item">
+							<img src="static/img/app_ruta1.png" alt="">
+							<div class="carousel-content">
+								<div/ class="caja"> <p>4º Elige tu ruta</p> </div>
+							</div>
+						</div>
+						
+						<div class="item">
+							<img src="static/img/app_ruta2.png" alt="">
+							<div class="carousel-content">
+								<div/ class="caja"> <p>5º Examina tu ruta</p> </div>
+							</div>
+						</div>
+						
+						<div class="item">
+							<img src="static/img/app_ruta3.png" alt="">
+							<div class="carousel-content">
+								<div/ class="caja"> <p>6º Consulta los detalles</p> </div>
+							</div>
+						</div>
+						
+						<div class="item">
+							<img src="static/img/app_ruta4.png" alt="">
+							<div class="carousel-content">
+								<div/ class="caja" style="height: 65px; padding-top: 4%;"> <p>7º Guarda tus rutas frecuentes</p> </div>
+							</div>
 						</div>
 					
 						<div class="item">
 							<img src="static/img/app_profile.png" alt="">
+							<div class="carousel-content">
+								<div/ class="caja" style="height: 65px; padding-top: 4%;"> <p>8º Actualiza tu información de usuario</p> </div>
+							</div>
 						</div>
 
 						<div class="item">
 							<img src="static/img/app_car.png" alt="">
+							<div class="carousel-content">
+								<div/ class="caja" style="height: 65px; padding-top: 4%"> <p>9º Revisa la información de tu coche</p> </div>
+							</div>
 						</div>
 					</div>
 
-					<!-- Left and right controls -->					
-					<a class="carousel-control-prev" href="#myCarousel2" role="button" data-slide="prev">
+					<!-- Left and right controls -->
+					<a class="carousel-control-prev" href="#Carousel_app" role="button" data-slide="prev">
 						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 						<span class="sr-only">Previous</span>
 					</a>
-					<a class="carousel-control-next" href="#myCarousel2" role="button" data-slide="next">
+					<a class="carousel-control-next" href="#Carousel_app" role="button" data-slide="next">
 						<span class="carousel-control-next-icon" aria-hidden="true"></span>
 						<span class="sr-only">Next</span>
 					</a>	
@@ -328,95 +391,136 @@
 			</div>
 
         </section>
-
-	
 		
 		
 		
-		
-		
-		<!-- Equipo -->
+		<!-- Sección - Equipo -->
 		<section class="contact-section bg-black" id="team">
             <div class="container">
-			<h2 class="text-white mb-4 text-center ">Equipo</h2>
-                <div class="row">
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-6 h-90">
+				
+				<h2 class="text-white mb-4 text-center ">Sobre nosotras</h2>
+				<div class="row">
+				
+					<!-- Subsección - Blanca Alonso González -->
+                    <div class="col-md-3 mb-3 mb-md-0">
+                        <div class="card py-6 h-100">
 							<div class="card-body text-center">
-								<img class="img-profile rounded-circle" src="static/img/img_blanca.png">
-                                <h4 class="text-uppercase m-0">Blanca Alonso González</h4>
+								<!-- Imagen -->
+								<img class="card-img-top rounded-circle" src="static/img/img_blanca.png" alt="Foto Perfil">
+								<!-- Nombre, Cargo y Descripción -->
+								<h5 class="card-title font-weight-bold mt-4 mb-3">Blanca Alonso González</h5>
+								<p class="card-text text-uppercase" style="color:#64A19D"><strong>Data Scientist</strong></p>
+								<p class="grey-text">ML specialist with knowledge of cloud services, programming skills and business vision.</p>
 								<hr class="my-4" />
-								<p>Mathematics Degree and Master in Big Data and Business Analytics, working as Data Scientist in MBD Analytics.</p>
-								<p>ML specialist with knowledge of cloud services, programming skills and business vision.</p>
-                                <hr class="my-4" />
-								<a class="mx-2" href="#!"><i class="fab fa-linkedin fa-3x"></i></a>
-							</div>
-
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-6 h-90">
-                            <div class="card-body text-center">
-								<img class="img-profile rounded-circle" src="static/img/img_irene.png">
-                                <h4 class="text-uppercase m-0">Irene Robles Cabezas</h4>
-								<hr class="my-4" />
-								<p>Economics Degree and Master in Big Data and Business Analytics, working as Data Analytics in MBD Analytics.</p>
-								<p>Especializada en análisis económico y en técnicas de aprendizaje y modelización predictiva avanzada.</p>
-                                <hr class="my-4" />
-								<a class="mx-2" href="#!"><i class="fab fa-linkedin fa-3x"></i></a>
+								<!-- Contacto - Redes sociales -->
+								<ul class="list-unstyled mb-0">
+									<!-- Linkedin -->
+									<a class="p-2 fa-lg link-ic"><a href="https://www.linkedin.com/in/blanca-alonso-gonzalez"> <i class="fab fa-linkedin blue-text fa-lg"> </i></a>
+									<!-- Github -->
+									<a class="p-2 fa-lg g-ic"><a href="https://github.com/blaalons"> <i class="fab fa-github blue-text fa-lg"> </i></a>
+								</ul>
 							</div>
                         </div>
                     </div>
-					<div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-6 h-90">
+					
+					<!-- Subsección - Irene Robles Cabezas -->
+                    <div class="col-md-3 mb-3 mb-md-0">
+                        <div class="card py-6 h-100">
                             <div class="card-body text-center">
-								<img class="img-profile rounded-circle" src="static/img/img_irene.png">
-                                <h4 class="text-uppercase m-0">XXXXXXXXXXXXXXXXXX</h4>
-                                <hr class="my-4" />
-								<p>Economics Degree and Master in Big Data and Business Analytics, working as Data Analytics in MBD Analytics.</p>
-								<p>Especializada en análisis económico y en técnicas de aprendizaje y modelización predictiva avanzada.</p>
+								<!-- Imagen -->
+								<img class="card-img-top rounded-circle mx-auto" src="static/img/img_irene.png" alt="Foto Perfil">
+								<!-- Nombre, Cargo y Descripción -->
+                                <h5 class="card-title font-weight-bold mt-4 mb-3">Irene Robles <br/>Cabezas</h5>
+								<p class="card-text  text-uppercase" style="color:#64A19D"><strong>Data Analyst</strong></p>
+								<p class="grey-text">Especializada en análisis económico y en técnicas de aprendizaje y modelización predictiva avanzada.</p>
 								<hr class="my-4" />
-								<a class="mx-2" href="#!"><i class="fab fa-linkedin fa-3x"></i></a>
+								<!-- Contacto - Redes sociales -->
+								<ul class="list-unstyled mb-0">
+									<!-- Linkedin -->
+									<a class="p-2 fa-lg link-ic"><a href="https://www.linkedin.com/in/irene-cecilia-robles-cabezas"> <i class="fab fa-linkedin blue-text fa-lg"> </i></a>
+									<!-- Github -->
+									<a class="p-2 fa-lg g-ic"><a href="https://github.com/IreRobles"> <i class="fab fa-github blue-text fa-lg"> </i></a>
+								</ul>
+							</div>
+                        </div>
+                    </div>
+					
+					<!-- Subsección - Lucía Tomaino de la Cruz -->
+					<div class="col-md-3 mb-3 mb-md-0">
+                        <div class="card py-6 h-100">
+                            <div class="card-body text-center">
+								<!-- Imagen -->
+								<img class="card-img-top rounded-circle mx-auto" src="static/img/img_lucia.png" alt="Foto Perfil">
+								<!-- Nombre, Cargo y Descripción -->
+                                <h5 class="card-title font-weight-bold mt-4 mb-3">Lucía Tomaino <br/>de la Cruz</h5>
+								<p class="card-text text-uppercase" style="color:#64A19D"><strong>INGENIERA GNSS</strong></p>
+								<p class="grey-text">Especializada en análisis económico y en técnicas de aprendizaje y modelización predictiva avanzada.</p>
+								<hr class="my-4" />
+								<!-- Contacto - Redes sociales -->
+								<ul class="list-unstyled mb-0">
+									<!-- Linkedin -->
+									<a class="p-2 fa-lg link-ic"><a href="https://www.linkedin.com/in/luciatomainodelacruz/"> <i class="fab fa-linkedin blue-text fa-lg"> </i></a>
+									<!-- Github -->
+									<a class="p-2 fa-lg g-ic"><a href="https://github.com/luciatomainodelacr"> <i class="fab fa-github blue-text fa-lg"> </i></a>
+								</ul>
+                            </div>
+                        </div>
+                    </div>
+					
+					<!-- Subsección - Marta García Palomo -->
+					<div class="col-md-3 mb-3 mb-md-0">
+                        <div class="card py-6 h-100">
+                            <div class="card-body text-center">
+								<!-- Imagen -->
+								<img class="card-img-top rounded-circle mx-auto" src="static/img/img_marta.png" alt="Foto Perfil">
+								<!-- Nombre, Cargo y Descripción -->
+								<h5 class="card-title font-weight-bold mt-4 mb-3">Marta García <br/>Palomo</h5>
+								<p class="card-text text-uppercase" style="color:#64A19D"><strong>SOLUTIONS ANALYST</strong></p>
+								<p class="grey-text">Especializada en análisis económico y en técnicas de aprendizaje y modelización predictiva avanzada.</p>
+								<hr class="my-4" />
+								<!-- Contacto - Redes sociales -->
+								<ul class="list-unstyled mb-0">
+									<!-- Linkedin -->
+									<a class="p-2 fa-lg link-ic"><a href="https://www.linkedin.com/in/martagarciapalomo/"> <i class="fab fa-linkedin blue-text fa-lg"> </i></a>
+									<!-- Github -->
+									<a class="p-2 fa-lg g-ic"><a href="https://github.com/MartaGarciaPalomo"> <i class="fab fa-github blue-text fa-lg"> </i></a>
+								</ul>
                             </div>
                         </div>
                     </div>
 				</div>
+				
 	        </div>
- 
 		</section>
 		
-        <!-- Contacto-->
+	
+        <!-- Sección - QR -->
         <section class="signup-section" id="signup">
             <div class="container">
                 <div class="row">
-				
                     <div class="col-md-10 col-lg-8 mx-auto text-center">
                         <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                        <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
-						
-						
-                        <form class="form-inline d-flex">
-                            <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" type="email" placeholder="Enter email address..." />
-                            <button class="btn btn-primary mx-auto" type="submit">Subscribe</button>
-                        </form>
+                        <h2 class="text-white mb-5">Tú también puedes ser parte del cambio, ¡únete!</h2>
+						<!-- Código QR -->
+						<img class="img-profile mx-auto" src="static/img/qr.png">
                     </div>
-                
 				</div>
             </div>
         </section>
-
-
-
 		
 		
         <!-- Footer-->
         <footer class="footer bg-black small text-center text-white-50"><div class="container">Copyright © Electric Route 2021</div></footer>
+		
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+		
         <!-- Third party plugin JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+		
         <!-- Core theme JS-->
         <script src="static/js/scripts.js"></script>
+		
     </body>
 </html>
