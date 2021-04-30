@@ -10681,7 +10681,7 @@ body {
 
 .carousel-content {
   position: absolute;
-  bottom: 85%;
+  bottom: 005%;
   left: 2%;
   z-index: 20;
   color: white;
